@@ -149,7 +149,7 @@ Although, we just downloaded a super cool GUI for our MongoDb, we still need to 
 
 We're going to use a new database to practice with called: **_JobContacts_**
 
-So, to use and create our new database we just run: `use JobContacts`
+So, to use and create our new database we just run: `use contacts`
 
 The command to list databases is `show databases`
 
@@ -165,7 +165,7 @@ local  0.078GB
 >
 ```
 
-Note that although I've switched to the `JobContacts` database, I haven't put any data into it yet, it doesn't show up in the database list.
+Note that although I've switched to the `contacts` database, I haven't put any data into it yet, it doesn't show up in the database list.
 
 The collection we'll create in our database will be called `contacts`. It has no entries in it yet, which you can see by saying `db.contacts.count()`
 
@@ -198,11 +198,11 @@ db.contacts.insert({
 
 MongoDB uses JSON natively, which makes it convenient for Javascript web applications.
 
-Also, the `JobContacts` database exists now that we have inserted data into it:
+Also, the `contacts` database exists now that we have inserted data into it:
 
 ```
 >  show databases;
-JobContacts  0.078GB
+contacts  0.078GB
 local     0.078GB
 >
 ```

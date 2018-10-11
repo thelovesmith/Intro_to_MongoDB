@@ -527,5 +527,4 @@ Some cats have favorite pastimes:
   - It gives us a listen method that allows us to tell our app to listen on a specific port.
   - Express gives our `node.js` app a form, or structure if you will.
   - Express is like a wrapper that goes on top of `node.js` gives us a generic frame to work with, a frame.
-
-## Conclusion - Questions?
+  - Very soon, we'll learn about Mongoose.js; a library that allows out express apps to interface with MongoDB.

@@ -44,7 +44,6 @@ _As far as SQL databases are concerned, there are several out there. The most co
 
 _Other examples of NoSQL databases are CouchDB, Couchbase, Redis.It. They are all very flexible because their structure involves sets of key-value pairs that can take any shape. Each NoSQL database has its own (very similar) query language._
 
-![delete a table](./delete_table.jpg)
 
 # Installing MongoDB
 
